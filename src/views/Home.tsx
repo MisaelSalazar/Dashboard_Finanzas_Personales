@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
             <Header
-                title="Sistema de Gestion de Finanzas Personales"
+                title="Sistema Gestor de Finanzas Personales"
             ></Header>
         </>
     )
