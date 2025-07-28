@@ -1,0 +1,20 @@
+/* .header{
+
+} */
+
+.sidebar{
+    width: 14rem;
+    height: calc(100vh);
+    background-color: #e3f2fd;
+    ul{
+        list-style: none;
+        padding: 1rem 2rem;
+        li{
+            margin-bottom: 1rem;
+            a{
+                text-decoration: none;
+                font-size: large;
+            }
+        }
+    }
+}

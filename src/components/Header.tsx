@@ -1,4 +1,6 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Sidebar from './Sidebar';
 
 interface HeaderProps {
     title: string;
@@ -8,9 +10,15 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
 
     return (
         <>
-            <nav className="navbar navbar-dark bg-primary mb-4">
-                <h1 className="navbar-brand p-2">{title}</h1>
-            </nav>
+            <Navbar
+                title={title}
+            ></Navbar>
+            <div className="flex">
+                <Sidebar />
+                <div className="content">
+                    
+                </div>
+            </div>
         </>
     )
 }
